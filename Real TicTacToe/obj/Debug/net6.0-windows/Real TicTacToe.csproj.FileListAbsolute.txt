@@ -1,0 +1,17 @@
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\bin\Debug\net6.0-windows\Real TicTacToe.exe
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\bin\Debug\net6.0-windows\Real TicTacToe.deps.json
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\bin\Debug\net6.0-windows\Real TicTacToe.runtimeconfig.json
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\bin\Debug\net6.0-windows\Real TicTacToe.dll
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\bin\Debug\net6.0-windows\Real TicTacToe.pdb
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\Real TicTacToe.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\Real_TicTacToe.Form1.resources
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\Real TicTacToe.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\Real TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\Real TicTacToe.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\Real TicTacToe.AssemblyInfo.cs
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\Real TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\Real TicTacToe.dll
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\refint\Real TicTacToe.dll
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\Real TicTacToe.pdb
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\Real TicTacToe.genruntimeconfig.cache
+C:\Users\HP\source\repos\Real TicTacToe\Real TicTacToe\obj\Debug\net6.0-windows\ref\Real TicTacToe.dll
