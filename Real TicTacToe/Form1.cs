@@ -32,6 +32,10 @@ namespace Real_TicTacToe
         private void upperbttn1CLICK(object sender, EventArgs e)
         {
             upperbttn1.Text = "X";
+            if (upperbttn1.Enabled = true)
+            {
+                upperbttn1.Enabled = false;
+            }
         }
 
         private void upperbttn2CLICK(object sender, EventArgs e)
