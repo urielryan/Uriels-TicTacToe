@@ -182,6 +182,7 @@ namespace Real_TicTacToe
             if (midbttn1.Text == midbttn2.Text && midbttn2.Text == midbttn3.Text)
             {
                 MessageBox.Show(midbttn1.Text + " won!");
+                this.Close();
 
             }
             //button disabler
@@ -202,6 +203,15 @@ namespace Real_TicTacToe
             {
                 symbolPut = 'X';
             }
+            //winner section
+            //horizontal
+            if (lowerbttn1.Text == lowerbttn2.Text && lowerbttn2.Text == lowerbttn3.Text)
+            {
+                MessageBox.Show(lowerbttn1.Text + " won!");
+                this.Close();
+
+            }
+            //button disabler
 
 
 
@@ -221,7 +231,17 @@ namespace Real_TicTacToe
             else
             {
                 symbolPut = 'X';
+
+            }  //winner section
+            //horizontal
+            if (lowerbttn1.Text == lowerbttn2.Text && lowerbttn2.Text == lowerbttn3.Text)
+            {
+                MessageBox.Show(lowerbttn1.Text + " won!");
+                this.Close();
+
             }
+            //button disabler
+
             if (lowerbttn2.Enabled == true)
             {
                 lowerbttn2.Enabled = false;
@@ -239,6 +259,15 @@ namespace Real_TicTacToe
             {
                 symbolPut = 'X';
             }
+            //winner section
+            //horizontal
+            if (lowerbttn1.Text == lowerbttn2.Text && lowerbttn2.Text == lowerbttn3.Text)
+            {
+                MessageBox.Show(lowerbttn1.Text + " won!");
+                this.Close();
+
+            }
+            //button disabler
             if (lowerbttn3.Enabled == true)
             {
                 lowerbttn3.Enabled = false;
