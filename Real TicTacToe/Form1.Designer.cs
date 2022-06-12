@@ -148,7 +148,7 @@
             this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "TIC TAC TOE Game";
+            this.Text = "Tic Tac Toe";
             this.ResumeLayout(false);
 
         }
