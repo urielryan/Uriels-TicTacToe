@@ -35,7 +35,7 @@ namespace Real_TicTacToe
         private void upperbttn1CLICK(object sender, EventArgs e)
         {
             
-           
+            
             upperbttn1.Text = symbolPut.ToString();
             if (symbolPut == 'X')
             {
@@ -46,17 +46,23 @@ namespace Real_TicTacToe
                 symbolPut = 'X';
             }
 
-            //winner section
-            
+                                               //winner section
+            //horizontal
             if (upperbttn1.Text == upperbttn2.Text && upperbttn2.Text == upperbttn3.Text)
             {
                 MessageBox.Show(upperbttn1.Text + " won!");
                 this.Close();
              
             }
+            //vertical 
+            if (upperbttn1.Text == midbttn1.Text && midbttn1.Text == lowerbttn1.Text)
+            {
+                MessageBox.Show(upperbttn1.Text + " won!");
+                this.Close();
+            }
 
             
-            //disable button after click
+                                         //disable button after click
             if (upperbttn1.Enabled == true)
             {
                 upperbttn1.Enabled = false;
@@ -75,7 +81,7 @@ namespace Real_TicTacToe
             {
                 symbolPut = 'X';
             }
-            //winner section
+                                          //winner section
             //horizontal
             if (upperbttn1.Text == upperbttn2.Text && upperbttn2.Text == upperbttn3.Text)
             {
@@ -84,6 +90,8 @@ namespace Real_TicTacToe
 
 
             }
+
+                                        //disable button
             if (upperbttn2.Enabled == true)
             {
                 upperbttn2.Enabled = false;
@@ -125,13 +133,19 @@ namespace Real_TicTacToe
             {
                 symbolPut = 'X';
             }
-            //winner section
+                                             //winner section
             //horizontal
             if (midbttn1.Text == midbttn2.Text && midbttn2.Text == midbttn3.Text)
             {
                 MessageBox.Show(midbttn1.Text + " won!");
                 this.Close();
 
+            }
+            //vertical 
+            if (upperbttn1.Text == midbttn1.Text && midbttn1.Text == lowerbttn1.Text)
+            {
+                MessageBox.Show(upperbttn1.Text + " won!");
+                this.Close();
             }
             //button disabler
             if (midbttn1.Enabled == true)
@@ -191,7 +205,7 @@ namespace Real_TicTacToe
                 midbttn3.Enabled = false;
             }
         }
-
+        //midbuttons^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
         private void lowerbttn1CLICK(object sender, EventArgs e)
         {
             lowerbttn1.Text = symbolPut.ToString();
@@ -210,6 +224,12 @@ namespace Real_TicTacToe
                 MessageBox.Show(lowerbttn1.Text + " won!");
                 this.Close();
 
+            }
+            //vertical 
+            if (upperbttn1.Text == midbttn1.Text && midbttn1.Text == lowerbttn1.Text)
+            {
+                MessageBox.Show(upperbttn1.Text + " won!");
+                this.Close();
             }
             //button disabler
 
@@ -266,6 +286,12 @@ namespace Real_TicTacToe
                 MessageBox.Show(lowerbttn1.Text + " won!");
                 this.Close();
 
+            }
+            //vertical 
+            if (upperbttn1.Text == midbttn1.Text && midbttn1.Text == lowerbttn3.Text)
+            {
+                MessageBox.Show(upperbttn1.Text + " won!");
+                this.Close();
             }
             //button disabler
             if (lowerbttn3.Enabled == true)
