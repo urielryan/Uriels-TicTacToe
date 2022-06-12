@@ -30,7 +30,8 @@ namespace Real_TicTacToe
         }
         //above = accidentally clicked functions that i cannot remove or my program will crash
         char symbolPut = 'X';
-
+        int tie = 0;
+        
 
         private void upperbttn1CLICK(object sender, EventArgs e)
         {
@@ -73,6 +74,8 @@ namespace Real_TicTacToe
                 upperbttn1.Enabled = false;
             }
 
+          
+
         }
 
         private void upperbttn2CLICK(object sender, EventArgs e)
@@ -100,12 +103,16 @@ namespace Real_TicTacToe
                 MessageBox.Show(upperbttn2.Text + " won!");
                 this.Close();
             }
+           
+          
+            
 
             //disable button
             if (upperbttn2.Enabled == true)
             {
                 upperbttn2.Enabled = false;
             }
+            
         }
 
         private void upperbttn3CLICK (object sender, EventArgs e)
@@ -138,11 +145,14 @@ namespace Real_TicTacToe
                 MessageBox.Show(upperbttn1.Text + " won!");
                 this.Close();
             }
+           
+
             //disable buttons
             if (upperbttn3.Enabled == true)
             {
                 upperbttn3.Enabled = false;
             }
+           
         }//upperbuttons^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
         private void midbttn1CLICK(object sender, EventArgs e)
@@ -170,11 +180,13 @@ namespace Real_TicTacToe
                 MessageBox.Show(upperbttn1.Text + " won!");
                 this.Close();
             }
+           
             //button disabler
             if (midbttn1.Enabled == true)
             {
                 midbttn1.Enabled = false;
             }
+           
         }
 
         private void midbttn2CLICK(object sender, EventArgs e)
@@ -214,11 +226,13 @@ namespace Real_TicTacToe
                 MessageBox.Show(upperbttn1.Text + " won!");
                 this.Close();
             }
+           
             //button disabler
             if (midbttn2.Enabled == true)
             {
                 midbttn2.Enabled = false;
             }
+           
         }
 
         private void midbttn3CLICK(object sender, EventArgs e)
@@ -246,11 +260,13 @@ namespace Real_TicTacToe
                 this.Close();
 
             }
+            
             //button disabler
             if (midbttn3.Enabled == true)
             {
                 midbttn3.Enabled = false;
             }
+          
         }
         //midbuttons^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
         private void lowerbttn1CLICK(object sender, EventArgs e)
@@ -284,6 +300,7 @@ namespace Real_TicTacToe
                 MessageBox.Show(upperbttn1.Text + " won!");
                 this.Close();
             }
+            
             //button disabler
 
 
@@ -292,6 +309,7 @@ namespace Real_TicTacToe
             {
                 lowerbttn1.Enabled = false;
             }
+          
         }
 
         private void lowerbttn2CLICK(object sender, EventArgs e)
@@ -319,12 +337,14 @@ namespace Real_TicTacToe
                 MessageBox.Show(upperbttn2.Text + " won!");
                 this.Close();
             }
-                            //button disabler
+            
+            //button disabler
 
             if (lowerbttn2.Enabled == true)
             {
                 lowerbttn2.Enabled = false;
             }
+            
         }
 
         private void lowerbttn3CLICK(object sender, EventArgs e)
@@ -363,8 +383,11 @@ namespace Real_TicTacToe
             {
                 lowerbttn3.Enabled = false;
             }
+            
+        } 
+                
+            
         }
-    }
-
-     
 }
+
+    
