@@ -28,18 +28,15 @@ namespace Real_TicTacToe
           
             
         }
+        //above = accidentally clicked functions that i cannot remove or my program will crash
         char symbolPut = 'X';
 
-        
 
 
-      
-           
-        
+                
             
         
-       
-
+        
         private void upperbttn1CLICK(object sender, EventArgs e)
         {
             
@@ -54,13 +51,22 @@ namespace Real_TicTacToe
                 symbolPut = 'X';
             }
 
+            //winner
+            if (upperbttn1.Text == upperbttn2.Text && upperbttn2.Text == upperbttn3.Text)
+            {
+                MessageBox.Show("yehey");
+              
+            }
 
+            
 
             if (upperbttn1.Enabled == true)
             {
                 upperbttn1.Enabled = false;
             }
 
+           
+           
            
         }
 
@@ -74,6 +80,12 @@ namespace Real_TicTacToe
             else
             {
                 symbolPut = 'X';
+            }
+            //winner
+            if (upperbttn1.Text == upperbttn2.Text && upperbttn2.Text == upperbttn3.Text)
+            {
+                MessageBox.Show("yehey");
+
             }
             if (upperbttn2.Enabled == true)
             {
@@ -91,6 +103,12 @@ namespace Real_TicTacToe
             else
             {
                 symbolPut = 'X';
+            }
+            //winner
+            if (upperbttn1.Text == upperbttn2.Text && upperbttn2.Text == upperbttn3.Text)
+            {
+                MessageBox.Show("yehey");
+
             }
             if (upperbttn3.Enabled == true)
             {
