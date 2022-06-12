@@ -43,6 +43,7 @@
             // upperbttn1
             // 
             this.upperbttn1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.upperbttn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.upperbttn1.Location = new System.Drawing.Point(50, 63);
             this.upperbttn1.Name = "upperbttn1";
             this.upperbttn1.Size = new System.Drawing.Size(98, 105);
@@ -53,6 +54,7 @@
             // upperbttn2
             // 
             this.upperbttn2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.upperbttn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.upperbttn2.Location = new System.Drawing.Point(154, 63);
             this.upperbttn2.Name = "upperbttn2";
             this.upperbttn2.Size = new System.Drawing.Size(98, 105);
@@ -63,6 +65,7 @@
             // upperbttn3
             // 
             this.upperbttn3.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.upperbttn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.upperbttn3.Location = new System.Drawing.Point(258, 63);
             this.upperbttn3.Name = "upperbttn3";
             this.upperbttn3.Size = new System.Drawing.Size(98, 105);
@@ -73,6 +76,7 @@
             // midbttn1
             // 
             this.midbttn1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.midbttn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.midbttn1.Location = new System.Drawing.Point(50, 174);
             this.midbttn1.Name = "midbttn1";
             this.midbttn1.Size = new System.Drawing.Size(98, 105);
@@ -83,6 +87,7 @@
             // midbttn2
             // 
             this.midbttn2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.midbttn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.midbttn2.Location = new System.Drawing.Point(154, 174);
             this.midbttn2.Name = "midbttn2";
             this.midbttn2.Size = new System.Drawing.Size(98, 105);
@@ -93,6 +98,7 @@
             // midbttn3
             // 
             this.midbttn3.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.midbttn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.midbttn3.Location = new System.Drawing.Point(258, 174);
             this.midbttn3.Name = "midbttn3";
             this.midbttn3.Size = new System.Drawing.Size(98, 105);
@@ -103,6 +109,7 @@
             // lowerbttn1
             // 
             this.lowerbttn1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.lowerbttn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lowerbttn1.Location = new System.Drawing.Point(50, 285);
             this.lowerbttn1.Name = "lowerbttn1";
             this.lowerbttn1.Size = new System.Drawing.Size(98, 105);
@@ -113,6 +120,7 @@
             // lowerbttn2
             // 
             this.lowerbttn2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.lowerbttn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lowerbttn2.Location = new System.Drawing.Point(154, 285);
             this.lowerbttn2.Name = "lowerbttn2";
             this.lowerbttn2.Size = new System.Drawing.Size(98, 105);
@@ -123,6 +131,7 @@
             // lowerbttn3
             // 
             this.lowerbttn3.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.lowerbttn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lowerbttn3.Location = new System.Drawing.Point(258, 285);
             this.lowerbttn3.Name = "lowerbttn3";
             this.lowerbttn3.Size = new System.Drawing.Size(98, 105);
