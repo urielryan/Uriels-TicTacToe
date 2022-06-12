@@ -145,7 +145,7 @@
             this.Controls.Add(this.upperbttn3);
             this.Controls.Add(this.upperbttn2);
             this.Controls.Add(this.upperbttn1);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "TIC TAC TOE Game";
